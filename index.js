@@ -12,7 +12,21 @@ const github = new Github(
   request,
 );
 
-const representation = new Representation();
-representation
-  .addSource(github)
-  .generate('/docs/me.json');
+const run = async () => {
+  const representation = new Representation({
+    folder: 'build',
+    publish: {
+      user: {
+        name: 'Salim KAYABASI',
+        email: 'salim.kayabasi@gmail.com',
+      },
+      repo: `https://${token}@github.com/salimkayabasi/salimkayabasi.com.git`,
+    },
+  });
+  await representation
+    .addSource(github)
+    .generate();
+  await representation.publish();
+};
+
+run();
