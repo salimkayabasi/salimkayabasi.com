@@ -5,10 +5,13 @@
   "repository": "git@github.com:salimkayabasi/salimkayabasi.com.git",
   "author": "Salim KAYABAŞI <salim.kayabasi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "babel-node index.js"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
-    "babel-preset-env": "^1.5.1",
+    "babel-preset-env": "^1.5.2",
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
