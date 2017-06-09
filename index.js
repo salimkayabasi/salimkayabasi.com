@@ -26,7 +26,6 @@ const run = async () => {
   await representation
     .addSource(github)
     .generate();
-  await representation.publish();
 };
 
 run();
