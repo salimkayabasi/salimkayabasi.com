@@ -19,11 +19,6 @@ plugins:
   - import
   - react
   - jsx-a11y
-  - prettier
 
 rules:
   no-console: error
-  prettier/prettier:
-  - warn
-  - trailingComma: all
-    singleQuote: true
