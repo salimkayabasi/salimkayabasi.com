@@ -23,7 +23,7 @@
   "dependencies": {
     "log-with": "^1.2.1",
     "representation": "^0.0.9",
-    "representation-source-github": "^0.0.5",
+    "representation-source-github": "^0.0.9",
     "request-promise-native": "^1.0.4"
   }
 }
