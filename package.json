@@ -6,6 +6,12 @@
   "author": "Salim KAYABAŞI <salim.kayabasi@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "major": "npm version major -m \"New major version %s\"",
+    "minor": "npm version minor -m \"New minor version %s\"",
+    "patch": "npm version patch -m \"New patch version %s\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "pretest": "yarn lint",
     "test": "babel-node index.js"
   },
   "devDependencies": {
@@ -21,9 +27,8 @@
     "jest": "^20.0.4"
   },
   "dependencies": {
+    "representation-tool-file-reader": "^0.0.2",
     "log-with": "^1.2.1",
-    "representation": "^0.0.9",
-    "representation-source-github": "^0.0.5",
-    "request-promise-native": "^1.0.4"
+    "representation": "^0.0.11"
   }
 }
