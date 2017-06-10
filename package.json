@@ -6,6 +6,6 @@
   "license": "MIT",
   "dependencies": {
     "representation-cli": "^0.0.2",
-    "representation-source-github": "^0.0.15"
+    "representation-source-github": "^0.0.16"
   }
 }
