@@ -1,35 +1,11 @@
 {
   "name": "salimkayabasi.com",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:salimkayabasi/salimkayabasi.com.git",
   "author": "Salim KAYABAŞI <salim.kayabasi@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "major": "npm version major -m \"New major version %s\"",
-    "minor": "npm version minor -m \"New minor version %s\"",
-    "patch": "npm version patch -m \"New patch version %s\"",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "pretest": "yarn lint",
-    "test": "babel-node index.js"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
-    "babel-preset-env": "^1.5.2",
-    "babel-preset-stage-2": "^6.24.1",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.0.1",
-    "jest": "^20.0.4"
-  },
   "dependencies": {
-    "representation-tool-file-reader": "^0.0.2",
-    "log-with": "^1.2.1",
-    "representation": "^0.0.11",
-    "representation-source-github": "^0.0.10"
+    "representation-cli": "^0.0.2",
+    "representation-source-github": "^0.0.15"
   }
 }
