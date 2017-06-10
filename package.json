@@ -30,6 +30,6 @@
     "representation-tool-file-reader": "^0.0.2",
     "log-with": "^1.2.1",
     "representation": "^0.0.11",
-    "representation-source-github": "^0.0.10"
+    "representation-source-github": "^0.0.15"
   }
 }
