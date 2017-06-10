@@ -1,8 +1,11 @@
 {
   "name": "salimkayabasi.com",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:salimkayabasi/salimkayabasi.com.git",
   "author": "Salim KAYABAŞI <salim.kayabasi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "representation-cli": "^0.0.2",
+    "representation-source-github": "^0.0.16"
+  }
 }
