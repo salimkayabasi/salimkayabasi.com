@@ -267,14 +267,14 @@ qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
-representation-cli@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/representation-cli/-/representation-cli-0.0.2.tgz#cd385b620b48504f6c44bf6237d855e126e14783"
+representation-cli@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/representation-cli/-/representation-cli-0.0.3.tgz#0395f023871f346c0d8350c98369c8b7b8cb06cc"
   dependencies:
     commander "^2.9.0"
     log-with "^1.2.1"
     representation "^0.0.11"
-    representation-tool-file-reader "^0.0.2"
+    representation-tool-file-reader "^0.0.3"
 
 representation-source-github@^0.0.16:
   version "0.0.16"
@@ -284,12 +284,13 @@ representation-source-github@^0.0.16:
     request "^2.81.0"
     request-promise-native "^1.0.4"
 
-representation-tool-file-reader@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/representation-tool-file-reader/-/representation-tool-file-reader-0.0.2.tgz#d732a37baa730b1561f10527e12e3b651baf2eae"
+representation-tool-file-reader@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/representation-tool-file-reader/-/representation-tool-file-reader-0.0.3.tgz#46ad54ea51f7467f73c2a3bc987bd5c536ac5350"
   dependencies:
     js-yaml "^3.8.4"
     lodash "^4.17.4"
+    log-with "^1.2.1"
 
 representation@^0.0.11:
   version "0.0.11"

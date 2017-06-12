@@ -1,5 +1,5 @@
 tokens:
-  github: GH_TOKEN
+  github: ${GH_TOKEN}
 sources:
   github:
     user: salimkayabasi
