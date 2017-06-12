@@ -1,5 +1,15 @@
+json: true
+clean: true
+profile:
+  name: Salim KAYABASI
+  photo: https://lh3.googleusercontent.com/B2G2t605HLpRlS6dEgW96LwekkQaNXvq9sRuBBijqq4tdQ0k09bnWKS0Bq8CNyqwuMYbm2uwbEaB62E=w5760-h3600-rw-no
+  title: Software Engineer
+  location: in Berlin, Germany
+  describe: life is almost perfect
 tokens:
   github: ${GH_TOKEN}
+template:
+  file: 'template.html'
 sources:
   github:
     user: salimkayabasi

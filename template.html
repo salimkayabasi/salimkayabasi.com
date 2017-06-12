@@ -1,0 +1,15 @@
+<h1><%= profile.name %></h1>
+<h2><%= profile.describe %></h2>
+
+<h3><%= profile.title %> <%= profile.location %></h3>
+
+<ul>
+  <% for(var i=0; i<sources.length; i++) {%>
+  <li>
+    <a href="<%= sources[i].home %>" target="_blank"><%= sources[i].name %></a>
+    (<%= sources[i].stats.map(function(stat){return stat.title+":"+stat.count}).join(" | ") %>)
+  </li>
+  <% } %>
+</ul>
+
+<h5>last update time <%= updatedAt %></h5>
