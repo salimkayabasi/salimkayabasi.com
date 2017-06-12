@@ -5,10 +5,11 @@
   "author": "Salim KAYABAŞI <salim.kayabasi@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "test": "echo \"no test here :)\"",
     "start": "representation -l"
   },
   "dependencies": {
-    "representation-cli": "^0.0.3",
+    "representation-cli": "^0.0.4",
     "representation-source-github": "^0.0.16"
   }
 }
