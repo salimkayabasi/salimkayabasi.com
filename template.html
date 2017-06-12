@@ -1,8 +1,11 @@
+<html>
+<head>
+  <title><%= profile.name %></title>
+</head>
+<body>
 <h1><%= profile.name %></h1>
 <h2><%= profile.describe %></h2>
-
 <h3><%= profile.title %> <%= profile.location %></h3>
-
 <ul>
   <% for(var i=0; i<sources.length; i++) {%>
   <li>
@@ -11,5 +14,6 @@
   </li>
   <% } %>
 </ul>
-
 <h5>last update time <%= updatedAt %></h5>
+</body>
+</html>
