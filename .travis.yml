@@ -18,6 +18,7 @@ deploy:
   provider: pages
   github_token: $GH_TOKEN
   local_dir: build
+  skip_cleanup: true
   fqdn: $DEPLOY_DOMAIN
   on:
     branch: master
