@@ -4,8 +4,11 @@
   "repository": "git@github.com:salimkayabasi/salimkayabasi.com.git",
   "author": "Salim KAYABAŞI <salim.kayabasi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "representation -l"
+  },
   "dependencies": {
-    "representation-cli": "^0.0.2",
+    "representation-cli": "^0.0.3",
     "representation-source-github": "^0.0.16"
   }
 }
