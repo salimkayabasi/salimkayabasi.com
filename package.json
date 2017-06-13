@@ -9,7 +9,7 @@
     "start": "representation -l"
   },
   "dependencies": {
-    "representation-cli": "^0.0.5",
+    "representation-cli": "^0.0.6",
     "representation-source-github": "^0.0.16"
   }
 }

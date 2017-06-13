@@ -601,13 +601,13 @@ repeat-string@^1.5.2:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
 
-representation-cli@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/representation-cli/-/representation-cli-0.0.5.tgz#20a74b1b85653e5421e73b842d6c0066990a1e13"
+representation-cli@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/representation-cli/-/representation-cli-0.0.6.tgz#5e5deb9eff54007315d800c9916e8dfe8c2a508b"
   dependencies:
     commander "^2.9.0"
     log-with "^1.2.1"
-    representation "^0.0.15"
+    representation "^0.0.16"
     representation-tool-file-reader "^0.0.4"
 
 representation-source-github@^0.0.16:
@@ -636,9 +636,9 @@ representation-tool-renderer@^0.0.2:
     markdown "^0.5.0"
     pug "^2.0.0-rc.2"
 
-representation@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/representation/-/representation-0.0.15.tgz#3d07fed11960150902bce6507e2fd4f30a062c2b"
+representation@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/representation/-/representation-0.0.16.tgz#587f952f66b0910327dc02773ba1f9a360f30621"
   dependencies:
     lodash "^4.17.4"
     log-with "^1.2.1"

@@ -3,10 +3,13 @@ clean: true
 folder: build
 file: me.json
 
+tokens:
+  github: ${GH_TOKEN}
+
 template:
   options:
     backgroundColor: 'red'
-  file: 'template.html'
+  file: '../salimkayabasi.com/template.html'
 #  file: 'material.html'
 #  layout: 'material'
   sources:
@@ -42,13 +45,12 @@ template:
       type: github
 #      template: 'material-github'
       options:
-        token: ${GH_TOKEN}
         user: salimkayabasi
     github2:
       type: github
 #      template: 'material-github'
       options:
-        user: salimkayabasi
+        user: google
         token: ${GH_TOKEN}
     linkedin:
       type: linkedin
@@ -56,5 +58,3 @@ template:
       options:
         user: salimkayabasi
         token: ${LNKDN_TOKEN}
-
-
