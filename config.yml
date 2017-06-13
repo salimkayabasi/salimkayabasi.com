@@ -1,15 +1,60 @@
 json: true
 clean: true
-profile:
-  name: Salim KAYABASI
-  photo: https://lh3.googleusercontent.com/B2G2t605HLpRlS6dEgW96LwekkQaNXvq9sRuBBijqq4tdQ0k09bnWKS0Bq8CNyqwuMYbm2uwbEaB62E=w5760-h3600-rw-no
-  title: Software Engineer
-  location: in Berlin, Germany
-  describe: life is almost perfect
-tokens:
-  github: ${GH_TOKEN}
+folder: build
+file: me.json
+
 template:
+  options:
+    backgroundColor: 'red'
   file: 'template.html'
-sources:
-  github:
-    user: salimkayabasi
+#  file: 'material.html'
+#  layout: 'material'
+  sources:
+    profile:
+      type: 'data'
+#      template: 'material-profile'
+      data:
+        name: Salim KAYABASI
+        photo: https://lh3.googleusercontent.com/B2G2t605HLpRlS6dEgW96LwekkQaNXvq9sRuBBijqq4tdQ0k09bnWKS0Bq8CNyqwuMYbm2uwbEaB62E=w5760-h3600-rw-no
+        title: Software Engineer
+        location: in Berlin, Germany
+        describe: life is almost perfect
+    jobs:
+      type: data
+#      template: 'material-jobs'
+      data:
+        -
+          name: name
+          title: title
+          year: year
+        -
+          name: name
+          title: title
+          year: year
+    currentJob:
+      type: data
+#      template: 'material-job'
+      data:
+        name: name
+        title: title
+        year: year
+    github1:
+      type: github
+#      template: 'material-github'
+      options:
+        token: ${GH_TOKEN}
+        user: salimkayabasi
+    github2:
+      type: github
+#      template: 'material-github'
+      options:
+        user: salimkayabasi
+        token: ${GH_TOKEN}
+    linkedin:
+      type: linkedin
+#      template: 'material-linkedin'
+      options:
+        user: salimkayabasi
+        token: ${LNKDN_TOKEN}
+
+
