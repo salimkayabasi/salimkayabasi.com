@@ -601,34 +601,34 @@ repeat-string@^1.5.2:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
 
-representation-cli@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/representation-cli/-/representation-cli-0.0.6.tgz#5e5deb9eff54007315d800c9916e8dfe8c2a508b"
+representy-cli@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/representy-cli/-/representy-cli-0.0.11.tgz#543bea68154dcff769d94b537b7f3fee8f15c165"
   dependencies:
     commander "^2.9.0"
     log-with "^1.2.1"
-    representation "^0.0.16"
-    representation-tool-file-reader "^0.0.4"
+    representy "^0.0.19"
+    representy-tool-config-reader "^0.0.6"
 
-representation-source-github@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/representation-source-github/-/representation-source-github-0.0.16.tgz#850b72f8981a6f41c2e1bf6290db6aa7e9bebb12"
+representy-source-github@^0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/representy-source-github/-/representy-source-github-0.0.20.tgz#c79298b3e64be62d27471d583cfac8dc88e91650"
   dependencies:
     lodash "^4.17.4"
     request "^2.81.0"
     request-promise-native "^1.0.4"
 
-representation-tool-file-reader@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/representation-tool-file-reader/-/representation-tool-file-reader-0.0.4.tgz#5bc65540017462b6cd598cd4e1f832b6ebf47960"
+representy-tool-config-reader@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/representy-tool-config-reader/-/representy-tool-config-reader-0.0.6.tgz#6cb5c4b95d3523846addcf210a5e1c456cbfe1cc"
   dependencies:
     js-yaml "^3.8.4"
     lodash "^4.17.4"
     log-with "^1.2.1"
 
-representation-tool-renderer@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/representation-tool-renderer/-/representation-tool-renderer-0.0.2.tgz#d729207fd275d68c14456db49f4775661d632d77"
+representy-tool-renderer@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/representy-tool-renderer/-/representy-tool-renderer-0.0.3.tgz#088e85df4ed6ff9638681191bc7fff3a785f895d"
   dependencies:
     ejs "^2.5.6"
     lodash "^4.17.4"
@@ -636,14 +636,14 @@ representation-tool-renderer@^0.0.2:
     markdown "^0.5.0"
     pug "^2.0.0-rc.2"
 
-representation@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/representation/-/representation-0.0.16.tgz#587f952f66b0910327dc02773ba1f9a360f30621"
+representy@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.19.tgz#98abc473dd23e0bc77e9306d4bc1d24365984715"
   dependencies:
     lodash "^4.17.4"
     log-with "^1.2.1"
     mkdirp "^0.5.1"
-    representation-tool-renderer "^0.0.2"
+    representy-tool-renderer "^0.0.3"
     rimraf "^2.6.1"
 
 request-promise-core@1.1.1:
@@ -776,8 +776,8 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
 uglify-js@^2.6.1:
-  version "2.8.28"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.28.tgz#e335032df9bb20dcb918f164589d5af47f38834a"
+  version "2.8.29"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.29.tgz#29c5733148057bb4e1f75df35b7a9cb72e6a59dd"
   dependencies:
     source-map "~0.5.1"
     yargs "~3.10.0"
