@@ -9,7 +9,7 @@
     "start": "representy -l"
   },
   "dependencies": {
-    "representy-cli": "^0.0.11",
+    "representy": "^0.0.20",
     "representy-source-github": "^0.0.20"
   }
 }
