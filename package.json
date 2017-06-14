@@ -6,10 +6,10 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"no test here :)\"",
-    "start": "representation -l"
+    "start": "representy -l"
   },
   "dependencies": {
-    "representation-cli": "^0.0.6",
-    "representation-source-github": "^0.0.16"
+    "representy-cli": "^0.0.11",
+    "representy-source-github": "^0.0.20"
   }
 }
