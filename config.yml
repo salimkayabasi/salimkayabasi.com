@@ -8,53 +8,23 @@ tokens:
 
 template:
   options:
-    backgroundColor: 'red'
   file: '../salimkayabasi.com/template.html'
-#  file: 'material.html'
-#  layout: 'material'
   sources:
     profile:
       type: 'data'
-#      template: 'material-profile'
       data:
         name: Salim KAYABASI
         photo: https://lh3.googleusercontent.com/B2G2t605HLpRlS6dEgW96LwekkQaNXvq9sRuBBijqq4tdQ0k09bnWKS0Bq8CNyqwuMYbm2uwbEaB62E=w5760-h3600-rw-no
         title: Software Engineer
         location: in Berlin, Germany
         describe: life is almost perfect
-    jobs:
-      type: data
-#      template: 'material-jobs'
-      data:
-        -
-          name: name
-          title: title
-          year: year
-        -
-          name: name
-          title: title
-          year: year
-    currentJob:
-      type: data
-#      template: 'material-job'
-      data:
-        name: name
-        title: title
-        year: year
     github1:
       type: github
-#      template: 'material-github'
       options:
         user: salimkayabasi
-    github2:
-      type: github
-#      template: 'material-github'
+    twitter:
+      type: twitter-timeline
       options:
-        user: google
-        token: ${GH_TOKEN}
-    linkedin:
-      type: linkedin
-#      template: 'material-linkedin'
-      options:
-        user: salimkayabasi
-        token: ${LNKDN_TOKEN}
+        username: salimkayabasi
+        height: 280
+        width: 235

@@ -491,8 +491,8 @@ performance-now@^0.2.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
 promise@^7.0.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/promise/-/promise-7.1.1.tgz#489654c692616b8aa55b0724fa809bb7db49c5bf"
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/promise/-/promise-7.2.0.tgz#67075a5fc537b39d66b87cdeb3732cf75867dbe2"
   dependencies:
     asap "~2.0.3"
 
@@ -609,6 +609,19 @@ representy-source-github@^0.0.20:
     request "^2.81.0"
     request-promise-native "^1.0.4"
 
+representy-source-html@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/representy-source-html/-/representy-source-html-0.0.1.tgz#6da830cf7410e24b3ab398f72c3ab5c90d2ab57d"
+  dependencies:
+    representy-tool-renderer "^0.0.5"
+
+representy-source-twitter-timeline@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/representy-source-twitter-timeline/-/representy-source-twitter-timeline-0.0.2.tgz#6ea55f0a4b101b324d84fdc3d45f38982f8744b8"
+  dependencies:
+    lodash "^4.17.4"
+    representy-source-html "^0.0.1"
+
 representy-tool-config-reader@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/representy-tool-config-reader/-/representy-tool-config-reader-0.0.6.tgz#6cb5c4b95d3523846addcf210a5e1c456cbfe1cc"
@@ -627,9 +640,19 @@ representy-tool-renderer@^0.0.3:
     markdown "^0.5.0"
     pug "^2.0.0-rc.2"
 
-representy@^0.0.21:
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.21.tgz#105c6ac85a22b4f3b7ee35dff5beed71f9a39cca"
+representy-tool-renderer@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/representy-tool-renderer/-/representy-tool-renderer-0.0.5.tgz#8265fb115c65ea5684af4bce32919494c099b325"
+  dependencies:
+    ejs "^2.5.6"
+    lodash "^4.17.4"
+    log-with "^1.2.1"
+    markdown "^0.5.0"
+    pug "^2.0.0-rc.2"
+
+representy@^0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.22.tgz#8c2f054874e895b3b08b78658b2a4f17c1d6c2f9"
   dependencies:
     commander "^2.9.0"
     lodash "^4.17.4"
