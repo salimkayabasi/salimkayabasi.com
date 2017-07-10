@@ -9,7 +9,7 @@
     "start": "representy -l"
   },
   "dependencies": {
-    "representy": "^0.0.22",
+    "representy": "^0.0.23",
     "representy-source-github": "^0.0.20",
     "representy-source-twitter-timeline": "^0.0.2"
   }
