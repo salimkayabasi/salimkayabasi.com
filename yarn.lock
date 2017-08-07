@@ -156,11 +156,9 @@ commander@2.8.x:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-commander@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
-  dependencies:
-    graceful-readlink ">= 1.0.0"
+commander@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -630,16 +628,6 @@ representy-tool-config-reader@^0.0.6:
     lodash "^4.17.4"
     log-with "^1.2.1"
 
-representy-tool-renderer@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/representy-tool-renderer/-/representy-tool-renderer-0.0.3.tgz#088e85df4ed6ff9638681191bc7fff3a785f895d"
-  dependencies:
-    ejs "^2.5.6"
-    lodash "^4.17.4"
-    log-with "^1.2.1"
-    markdown "^0.5.0"
-    pug "^2.0.0-rc.2"
-
 representy-tool-renderer@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/representy-tool-renderer/-/representy-tool-renderer-0.0.5.tgz#8265fb115c65ea5684af4bce32919494c099b325"
@@ -650,16 +638,16 @@ representy-tool-renderer@^0.0.5:
     markdown "^0.5.0"
     pug "^2.0.0-rc.2"
 
-representy@^0.0.22:
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.22.tgz#8c2f054874e895b3b08b78658b2a4f17c1d6c2f9"
+representy@0.0.27:
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.27.tgz#c914a653fbd2b291add431309ebec26511faffbf"
   dependencies:
-    commander "^2.9.0"
+    commander "^2.11.0"
     lodash "^4.17.4"
     log-with "^1.2.1"
     mkdirp "^0.5.1"
     representy-tool-config-reader "^0.0.6"
-    representy-tool-renderer "^0.0.3"
+    representy-tool-renderer "^0.0.5"
     rimraf "^2.6.1"
 
 request-promise-core@1.1.1:
