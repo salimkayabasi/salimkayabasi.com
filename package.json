@@ -5,8 +5,7 @@
   "author": "Salim KAYABAŞI <salim.kayabasi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"no test here :)\"",
-    "start": "representy -l"
+    "prepublish": "representy -l"
   },
   "dependencies": {
     "representy": "^0.0.27",
