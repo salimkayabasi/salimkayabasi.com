@@ -8,7 +8,7 @@
     "prepublish": "representy -l"
   },
   "dependencies": {
-    "representy": "^0.0.27",
+    "representy": "^0.0.28",
     "representy-source-github": "^0.0.20",
     "representy-source-twitter-timeline": "^0.0.2"
   }
