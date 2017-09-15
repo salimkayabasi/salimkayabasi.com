@@ -642,9 +642,9 @@ representy-tool-renderer@^0.0.5:
     markdown "^0.5.0"
     pug "^2.0.0-rc.2"
 
-representy@^0.0.27:
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.27.tgz#c914a653fbd2b291add431309ebec26511faffbf"
+representy@0.0.28:
+  version "0.0.28"
+  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.28.tgz#38750b78dd557824ced9a33313078851b0ac5914"
   dependencies:
     commander "^2.11.0"
     lodash "^4.17.4"
