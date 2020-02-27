@@ -1,4 +1,13 @@
-baseURL = "http://example.org/"
+baseURL = "http://blog.salimkayabasi.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "airspace"
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+[author]
+    name = "Salim KAYABASI"
+    email = "salim.kayabasi@gmail.com"
