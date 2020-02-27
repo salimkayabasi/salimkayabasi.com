@@ -1,3 +1,6 @@
 [submodule "themes/airspace"]
 	path = themes/airspace
 	url = git@github.com:themefisher/airspace-hugo.git
+[submodule "themes/hyde-y"]
+	path = themes/hyde-y
+	url = git@github.com:enten/hyde-y.git
