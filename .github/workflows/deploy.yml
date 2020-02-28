@@ -7,14 +7,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Checkout submodules
-        shell: bash
-        run: |
-          # From https://github.com/actions/checkout/issues/116#issuecomment-583221947
-          git config --global url."https://github.com/".insteadOf "git@github.com:"
-          git submodule sync --recursive
-          git -c "http.extraheader=Authorization: basic ${{ secrets.GITHUB_TOKEN }}" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+      - uses: actions/checkout@v1
+        with:
+          submodules: true
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
