@@ -6,4 +6,4 @@
 	url = git@github.com:enten/hyde-y.git
 [submodule "themes/meduimish"]
 	path = themes/meduimish
-	url = https://github.com/lgaida/mediumish-gohugo-theme
+	url = git@github.com:lgaida/mediumish-gohugo-theme.git
