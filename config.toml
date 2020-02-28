@@ -1,8 +1,8 @@
 baseURL = "http://blog.salimkayabasi.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "airspace"
-#theme = "hyde-y"
+#theme = "airspace"
+theme = "hyde-y"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
     code = "/:slug/"
