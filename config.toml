@@ -1,7 +1,6 @@
 baseURL = "http://blog.salimkayabasi.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-#theme = "meduimish"
+title = "Salim KAYABASI"
 theme="hugo-developer-portfolio"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -12,3 +11,19 @@ theme="hugo-developer-portfolio"
 [author]
     name = "Salim KAYABASI"
     email = "salim.kayabasi@gmail.com"
+[params.plugins]
+    # CSS Plugins
+    [[params.plugins.css]]
+    URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+    # JS Plugins
+    [[params.plugins.js]]
+    URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+    [[params.plugins.js]]
+    URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+[menu]
+    [[menu.main]]
+    name = "About"
+    URL = "about"
+    [[menu.main]]
+    name = "Blog"
+    URL = "blog"
