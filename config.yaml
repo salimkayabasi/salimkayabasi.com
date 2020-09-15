@@ -1,4 +1,4 @@
-baseURL: 'http://blog.salimkayabasi.com/'
+baseURL: http://blog.salimkayabasi.com
 languageCode: en-us
 title: Salim KAYABASI
 theme: meduimish
@@ -6,14 +6,14 @@ summaryLength: 25
 params:
   author:
     name: Salim KAYABASI
-    thumbnail: /images/me.png
+    thumbnail: /images/me.jpg
     description: Love to share
   social:
     github: salimkayabasi
     linkedin: salimkayabasi
     twitter: salimkayabasi
   index:
-    picture: /images/me.png
+    picture: /images/me.jpg
     title: Salim KAYABASI
     subtitle: I'm a unique placeholder. Working here and there!
     mdtext: >-
@@ -22,15 +22,9 @@ params:
           **This textblock is a demonstration of the mdtext-param.**\
           ### This is a markdown heading
     alertbar: true
-  plugins:
-    css:
-      - URL: 'https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css'
-    js:
-      - URL: 'https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js'
-      - URL: 'https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js'
 permalinks:
-  post: '/:year/:month/:day/:slug/'
-  code: '/:slug/'
+  post: /:year/:month/:day/:slug/
+  code: /:slug/
 taxonomies:
   tag: tags
   topic: topics
