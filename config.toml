@@ -1,7 +1,7 @@
 baseURL = "http://blog.salimkayabasi.com/"
 languageCode = "en-us"
 title = "Salim KAYABASI"
-theme="hugo-developer-portfolio"
+theme="meduimish"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
     code = "/:slug/"
