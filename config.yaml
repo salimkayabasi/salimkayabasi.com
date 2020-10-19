@@ -4,9 +4,8 @@ title: Salim KAYABASI
 theme: meduimish
 summaryLength: 25
 params:
-  customCSS:
-    - css/custom.css
   logo: /images/icon.png
+  description: the clean blog!
   author:
     name: Salim KAYABASI
     thumbnail: /images/me.jpg
