@@ -1,6 +1,6 @@
-# blog.salimkayabasi.com
+# salimkayabasi.com
 
-![Deploy](https://github.com/salimkayabasi/blog.salimkayabasi.com/workflows/Deploy/badge.svg)
+![Deploy](https://github.com/salimkayabasi/salimkayabasi.com/workflows/Deploy/badge.svg)
 
 
 ### Adding theme
