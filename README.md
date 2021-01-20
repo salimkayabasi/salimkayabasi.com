@@ -12,7 +12,6 @@ git submodule add git@github.com:koirand/pulp.git themes/pulp
 git submodule update --remote --rebase
 ```
 
-
 # Doks
 
 [![GitHub release](https://img.shields.io/github/release/h-enk/doks.svg?style=flat-square)](https://github.com/h-enk/doks/releases)

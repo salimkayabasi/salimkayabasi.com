@@ -2,15 +2,22 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - '*'
 jobs:
-  deploy:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          submodules: true
-          fetch-depth: 0
+          node-version: 15.x
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.4.13
         with:
@@ -22,10 +29,23 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
-      - name: Build
-        run: hugo --minify
+      - name: Check install Hugo
+        run: hugo version
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check for linting errors
+        run: npm test
+
+      - name: Delete temporary directories
+        run: npm run clean
+
+      - name: Build production website
+        run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.7.3
+        if: endsWith(github.ref, '/main') || endsWith(github.ref, '/test')
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
