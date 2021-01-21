@@ -1,21 +1,19 @@
-title: Doks
+title: Salim
 titleSeparator: '-'
-titleAddition: Modern Documentation Theme
+titleAddition: Welcome to SK's personal webpage
 description: >-
-  Doks is a Hugo theme helping you build modern documentation websites that are
-  secure, fast, and SEO-ready — by default.
+  Empowering team members to archive collaborative goals. Always aiming for team success.
+  Experienced on engineering and a great team player with a demonstrated history of working in the transportation/ride hailing/car-sharing industry.
 images:
   - doks.png
-twitterSite: henkverlinde
-twitterCreator: henkverlinde
-facebookAuthor: verlinde.henk
-facebookPublisher: verlinde.henk
+twitterSite: salimkayabasi
+twitterCreator: salimkayabasi
 ogLocale: en_US
-schemaType: Organization
+schemaType: Person
 schemaLogo: logo-doks.png
-schemaTwitter: 'https://twitter.com/henkverlinde'
-schemaLinkedIn: 'https://www.linkedin.com/in/henkverlinde/'
-schemaGitHub: 'https://github.com/h-enk'
+schemaTwitter: https://twitter.com/salimkayabasi
+schemaLinkedIn: https://www.linkedin.com/in/salimkayabasi
+schemaGitHub: https://github.com/salimkayabasi
 schemaSection: blog
 siteLinksSearchBox: false
 themeColor: '#fff'
@@ -34,13 +32,12 @@ portraitPhotoWidths:
   - 500
 lqipWidth: 20x
 footer: >-
-  Powered by <a href="https://www.netlify.com/">Netlify</a>, <a
-  href="https://gohugo.io/">Hugo</a>, and <a
-  href="https://getdoks.org/">Doks</a>
+  Any questions or feedback, please feel free to share them with me
+  <a href="https://twitter.com/salimkayabasi">@salimkayabasi</a>
 alert: false
 alertText: >-
-  Like Doks? <a class="alert-link"
-  href="https://github.com/h-enk/doks/stargazers">Star on GitHub</a>.
+  Wanna share your feedback? <a class="alert-link"
+  href="https://twitter.com/salimkayabasi">@salimkayabasi</a>.
   Thanks!</a>
-docsRepo: 'https://github.com/h-enk/doks'
+docsRepo: https://github.com/salimkayabasi.com
 editPage: false
