@@ -1,0 +1,46 @@
+title: Doks
+titleSeparator: '-'
+titleAddition: Modern Documentation Theme
+description: >-
+  Doks is a Hugo theme helping you build modern documentation websites that are
+  secure, fast, and SEO-ready — by default.
+images:
+  - doks.png
+twitterSite: henkverlinde
+twitterCreator: henkverlinde
+facebookAuthor: verlinde.henk
+facebookPublisher: verlinde.henk
+ogLocale: en_US
+schemaType: Organization
+schemaLogo: logo-doks.png
+schemaTwitter: 'https://twitter.com/henkverlinde'
+schemaLinkedIn: 'https://www.linkedin.com/in/henkverlinde/'
+schemaGitHub: 'https://github.com/h-enk'
+schemaSection: blog
+siteLinksSearchBox: false
+themeColor: '#fff'
+quality: 85
+bgColor: '#fff'
+landscapePhotoWidths:
+  - 900
+  - 800
+  - 700
+  - 600
+  - 500
+portraitPhotoWidths:
+  - 800
+  - 700
+  - 600
+  - 500
+lqipWidth: 20x
+footer: >-
+  Powered by <a href="https://www.netlify.com/">Netlify</a>, <a
+  href="https://gohugo.io/">Hugo</a>, and <a
+  href="https://getdoks.org/">Doks</a>
+alert: false
+alertText: >-
+  Like Doks? <a class="alert-link"
+  href="https://github.com/h-enk/doks/stargazers">Star on GitHub</a>.
+  Thanks!</a>
+docsRepo: 'https://github.com/h-enk/doks'
+editPage: false
