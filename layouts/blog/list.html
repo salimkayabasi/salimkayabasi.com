@@ -1,12 +1,12 @@
 {{ define "main" }}
 <div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
+  <div class="">
     <article>
       <h1 class="text-center">{{ .Title }}</h1>
       <div class="text-center">{{ .Content }}</div>
 			<div class="card-list">
-				{{ range .Data.Pages -}}	
-					<div class="card">
+				{{ range .Data.Pages -}}
+					<div class="card col-md-4 col-lg-4 col-xl-4 float-left p-1 m-1">
 						<div class="card-body">
 							<h2 class="h3"><a class="stretched-link text-body" href="{{ .Permalink }}">{{ .Params.title }}</a></h2>
 							<p>{{ .Params.lead | safeHTML }}</p>
