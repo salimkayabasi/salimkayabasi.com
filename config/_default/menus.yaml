@@ -1,8 +1,8 @@
 docs:
-  - name: Prologue
-    weight: 10
-    identifier: prologue
-    url: /docs/prologue/
+#  - name: Prologue
+#    weight: 10
+#    identifier: prologue
+#    url: /docs/prologue/
   - name: Help
     weight: 60
     identifier: help

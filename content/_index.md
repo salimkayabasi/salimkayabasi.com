@@ -7,7 +7,8 @@ images: []
 ---
 <img class="rounded-circle m-5 w-25 float-md-left" src="/images/profile.jpg">
 
-### Hi I'm Salim 👋
+### Hi I'm Salim Kayabasi 👋
+- 👨‍💻 Software Engineer
 - 🚙 working on shaping future of mobility
 - 💬 ask me about anything related to professional career
 - 📝 more can be found on my [blog](https://salimkayabasi.com/blog/)
