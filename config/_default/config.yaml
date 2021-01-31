@@ -18,18 +18,12 @@ outputs:
     - RSS
     - SITEMAP
 mediaTypes:
-  text/netlify:
-    suffixes:
-      - ''
-    delimiter: ''
 outputFormats:
   REDIRECTS:
-    mediaType: text/netlify
     baseName: _redirects
     isPlainText: true
     notAlternative: true
   HEADERS:
-    mediaType: text/netlify
     baseName: _headers
     isPlainText: true
     notAlternative: true
