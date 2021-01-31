@@ -7,7 +7,7 @@ publishdate: 2020-11-04T09:19:42+01:00
 lastmod: 2020-11-04T09:19:42+01:00
 draft: false
 images: ["say-hello-to-doks.png"]
-contributors: ["Henk Verlinde"]
+tags: ["tag1"]
 ---
 # Lorem ipsum
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio.
