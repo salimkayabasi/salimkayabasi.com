@@ -4,27 +4,20 @@ var userinput = document.getElementById('userinput');
 document.addEventListener('keydown', inputFocus);
 
 function inputFocus(e) {
-
   if (e.keyCode === 191 ) {
     e.preventDefault();
     userinput.focus();
   }
-
   if (e.keyCode === 27 ) {
     userinput.blur();
     suggestions.classList.add('d-none');
   }
-
 }
 
 document.addEventListener('click', function(event) {
-
-  var isClickInsideElement = suggestions.contains(event.target);
-
-  if (!isClickInsideElement) {
+  if (!suggestions.contains(event.target)) {
     suggestions.classList.add('d-none');
   }
-
 });
 
 /*

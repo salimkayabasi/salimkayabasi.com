@@ -41,21 +41,20 @@ markup:
     renderer:
       unsafe: true
   highlight:
+    anchorLineNos: false
     codeFences: true
     guessSyntax: false
     hl_Lines: ''
+    lineAnchors: ''
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true
-    noClasses: false
-    style: dracula
-    tabWidth: 4
+    style: solarized-dark256
+    tabWidth: 2
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 0.5
-taxonomies:
-  contributor: contributors
 permalinks:
   blog: '/blog/:title/'
 module:
