@@ -11,7 +11,7 @@ twitterSite: salimkayabasi
 twitterCreator: salimkayabasi
 ogLocale: en_US
 schemaType: Person
-schemaLogo: logo-doks.png
+schemaLogo: favicons/favicon-512x512.png
 schemaTwitter: https://twitter.com/salimkayabasi
 schemaLinkedIn: https://www.linkedin.com/in/salimkayabasi
 schemaGitHub: https://github.com/salimkayabasi
@@ -35,11 +35,10 @@ lqipWidth: 20x
 footer: >-
   Any questions or feedback,</br>
   please feel free to share them with me</br>
-  <a href="https://twitter.com/salimkayabasi">@salimkayabasi</a>
+  <a target="_blank" href="https://twitter.com/salimkayabasi">@salimkayabasi</a>
 alert: false
 alertText: >-
   Wanna share your feedback? <a class="alert-link"
-  href="https://twitter.com/salimkayabasi">@salimkayabasi</a>.
-  Thanks!</a>
+  target="_blank" href="https://twitter.com/salimkayabasi">@salimkayabasi</a>
 docsRepo: https://github.com/salimkayabasi.com
 editPage: false
