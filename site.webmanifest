@@ -1,1 +1,19 @@
-{"name":"Salim KAYABASI Theme","short_name":"Doks","icons":[{"src":"/images/icon.png","sizes":"192x192","type":"image/png"},{"src":"/images/icon.png","sizes":"512x512","type":"image/png"}],"theme_color":"#fff","background_color":"#fff","display":"standalone"}
+{
+  "name": "Salim KAYABASI",
+  "short_name": "SK",
+  "icons": [
+    {
+      "src": "/favicons/favicon-196x196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone"
+}
