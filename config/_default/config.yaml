@@ -56,7 +56,7 @@ sitemap:
   filename: sitemap.xml
   priority: 0.5
 permalinks:
-  blog: '/blog/:title/'
+  blog: '/blog/:year/:month/:title/'
 module:
   mounts:
     - source: assets
