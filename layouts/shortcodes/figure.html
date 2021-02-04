@@ -1,4 +1,4 @@
-<figure class="figure">
-  <img src="{{ .Get "src" }}" class="figure-img img-fluid rounded " {{ with .Get "alt"}} alt="{{.}}" {{ end }}>
+<figure class="figure w-100">
+  <img src="{{ .Get "src" }}" class="w-100 figure-img img-fluid rounded" {{ with .Get "alt"}} alt="{{.}}" {{ end }}>
   {{ with .Get "caption"}} <figcaption class="figure-caption text-center">{{.}}</figcaption> {{ end }}
 </figure>
