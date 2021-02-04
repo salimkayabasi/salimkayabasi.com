@@ -1,19 +1,15 @@
 docs:
-#  - name: Prologue
-#    weight: 10
-#    identifier: prologue
-#    url: /docs/prologue/
   - name: Help
     weight: 60
     identifier: help
-    url: /docs/help/
+    url: /projects/help/
 main:
-#  - name: Docs
-#    url: /docs/prologue/introduction/
-#    weight: 10
   - name: Blog
     url: /blog/
     weight: 20
+  - name: Projects
+    url: /projects/
+    weight: 30
 social:
   - name: GitHub
     pre: >-
