@@ -16,7 +16,7 @@ schemaTwitter: https://twitter.com/salimkayabasi
 schemaLinkedIn: https://www.linkedin.com/in/salimkayabasi
 schemaGitHub: https://github.com/salimkayabasi
 schemaSection: blog
-siteLinksSearchBox: false
+siteLinksSearchBox: true
 themeColor: '#fff'
 quality: 85
 bgColor: '#fff'
@@ -42,3 +42,13 @@ alertText: >-
   target="_blank" href="https://twitter.com/salimkayabasi">@salimkayabasi</a>
 docsRepo: https://github.com/salimkayabasi.com
 editPage: false
+options:
+  lazySizes: true
+  clipBoard: true
+  instantPage: true
+  flexSearch: true
+  darkMode: true
+  bootStrapJs: false
+  breadCrumb: true
+  highLight: true
+
