@@ -9,7 +9,7 @@ images: []
   <div class="col-md-4 col-lg-4 col-sm-6">
     <img alt="profile" class="rounded-circle m-1 w-100 align-self-center" src="/images/profile.jpg">
   </div>
-  <div class="col-md-8 col-lg-8 col-sm-6">
+  <div class="col-md-8 col-lg-8 col-sm-6 text-start">
 
   ### Hi I'm Salim Kayabasi 👋
 

@@ -2,6 +2,125 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/h-enk/doks/compare/v0.2.2...v0.2.3) (2021-04-02)
+
+
+### Features
+
+* update for netlify dev support ([10d0b45](https://github.com/h-enk/doks/commit/10d0b45203003a43727521dc9f5c35e655500309))
+
+
+### Bug Fixes
+
+* add class user added to img-simple shortcode ([bce8863](https://github.com/h-enk/doks/commit/bce8863269dd036146d5b6e447d67a23de70227d))
+* drop npm workflow ([977bbda](https://github.com/h-enk/doks/commit/977bbdad82e8e21599e1fcfc0d93fc4e448cf2af))
+
+
+### Dependencies
+
+* bump versions to latest ([171293a](https://github.com/h-enk/doks/commit/171293a692450d45348be2870434db2a01578de9))
+
+### [0.2.2](https://github.com/h-enk/doks/compare/v0.2.1...v0.2.2) (2021-03-26)
+
+
+### Features
+
+* update default highlight style ([28a3b39](https://github.com/h-enk/doks/commit/28a3b39fb9653db3f627cd55d610f28ed95860b3))
+
+
+### Dependencies
+
+* bump bootstrap to 5.0.0-beta3 ([f76e68e](https://github.com/h-enk/doks/commit/f76e68e832737c5fbc2421f164988767dddc5d99))
+* bump versions to latest ([843e8d4](https://github.com/h-enk/doks/commit/843e8d45252bc596f8422fbce6938b38976373f9))
+
+### [0.2.1](https://github.com/h-enk/doks/compare/v0.2.0...v0.2.1) (2021-03-18)
+
+
+### Bug Fixes
+
+* update package.json for npm workflow ([83b2c0e](https://github.com/h-enk/doks/commit/83b2c0e002e09aabc0f4b1e8fb30353151707d8b))
+
+## [0.2.0](https://github.com/h-enk/doks/compare/v0.1.6...v0.2.0) (2021-03-18)
+
+
+### Features
+
+* add doks default style + examples ([ad91b05](https://github.com/h-enk/doks/commit/ad91b0523e6e240c98710bfedfd31342cb2389dc))
+* add highlight.js as an option ([5180bd5](https://github.com/h-enk/doks/commit/5180bd53c6349372916907783fa9d0d3b22755af))
+* add katex math typesetting ([253b938](https://github.com/h-enk/doks/commit/253b938a2e303a06d07488c6eae79c74442e56d6))
+* add npm-package workflow ([e2ba008](https://github.com/h-enk/doks/commit/e2ba0086f780380fa171cfc2efaa1e868cfc5fc5))
+* add npm-package workflow ([be4b68c](https://github.com/h-enk/doks/commit/be4b68c3d85a04251a9cdcbf1e5a3639b9c53144))
+* add optional breadcrumb trail ([9c67aca](https://github.com/h-enk/doks/commit/9c67aca368f68ab916ff61caa36e0de69c43dec3))
+* add table support in markdown ([5ee11a8](https://github.com/h-enk/doks/commit/5ee11a80e274d5e71ff7a4809516101e7e7ea214))
+* added options lazySizes, clipBoard, instantPage, flexSearch, and darkMode ([5f03d61](https://github.com/h-enk/doks/commit/5f03d61e81aff6f8a0a194cb23bcf821c3476481))
+* added options lazySizes, clipBoard, instantPage, flexSearch, and darkMode ([5099c47](https://github.com/h-enk/doks/commit/5099c4773195aab0a39bd160330bc25f3173c3b0))
+* added options lazySizes, clipBoard, instantPage, flexSearch, and darkMode ([226f661](https://github.com/h-enk/doks/commit/226f661966ebb68f595541b31e6605d1c71efbdd))
+* preload key katex fonts ([6c4d45d](https://github.com/h-enk/doks/commit/6c4d45d248ee9b58745105d91259fc2dfb9540b3))
+* update bootstrap to 5.0.0-beta2 ([22afec7](https://github.com/h-enk/doks/commit/22afec709a1f11ef010d3436eca401cd4d5fd62f))
+* update netlify.toml for netlify-cli use ([9581fc4](https://github.com/h-enk/doks/commit/9581fc4c44d2fdfe6b6093365fdbf5dcd2b869a2))
+* update netlify.toml for netlify-cli use ([20bac2a](https://github.com/h-enk/doks/commit/20bac2a25bcdb3156120afd0d1b6543c0235f3c7))
+
+
+### Bug Fixes
+
+* linting error ([92798c9](https://github.com/h-enk/doks/commit/92798c92cd300bf1ed953c2a25bcbe0f8b24c1b2))
+* script loading + script order ([89784d9](https://github.com/h-enk/doks/commit/89784d9656712ce31d83c038a87821f78aa07a3c))
+* update content security header ([64efe3f](https://github.com/h-enk/doks/commit/64efe3ff00c5d315b43d40a4dc056ef7a3f88151))
+* update content security header ([e0996b3](https://github.com/h-enk/doks/commit/e0996b36cbdc439bf0ad6595342c0f965f31c119))
+* update content security header ([b54cae0](https://github.com/h-enk/doks/commit/b54cae0621211bce0754c17fdc302c96b6e50f6c))
+* update content security header ([6d38761](https://github.com/h-enk/doks/commit/6d387614d584607d07c3f944ee55b8a2d6a4ce4e))
+* update content security headers ([c70baa4](https://github.com/h-enk/doks/commit/c70baa448770d39d5c8f0842f742f5f8828a31ca))
+* update content security headers ([8df0fdd](https://github.com/h-enk/doks/commit/8df0fdd8c311752de685ed10f7e8ec1d5d22f69c))
+* update content security headers ([d1008a7](https://github.com/h-enk/doks/commit/d1008a736639e731679fd1e18eba4e6d437f00ad))
+
+
+### Dependencies
+
+* bump versions to latest ([e43f982](https://github.com/h-enk/doks/commit/e43f9821e49792e2e06f2e18ac419d58befc7723))
+* bump versions to latest ([9cdd693](https://github.com/h-enk/doks/commit/9cdd69352bb02c12a6174cea5d7d6b330e47f1b5))
+
+### [0.1.6](https://github.com/h-enk/doks/compare/v0.1.5...v0.1.6) (2021-03-01)
+
+
+### Features
+
+* add check commands ([85baab4](https://github.com/h-enk/doks/commit/85baab47ff06557051f373aa6afeb114fb40f50f))
+* match active class docs menu on identifier ([7384cfe](https://github.com/h-enk/doks/commit/7384cfe8f1652b8053f077c964633d4ad12cf281))
+* update package-lock.json ([8c73d74](https://github.com/h-enk/doks/commit/8c73d741fd789e829c35bf51cfc25c6d790b0dbb))
+
+
+### Bug Fixes
+
+* convert tabs to spaces ([6511531](https://github.com/h-enk/doks/commit/6511531c5e3f4ae1a9ad5e64972bd34c8e62cb0d))
+* remove extra space in else statement ([03637e5](https://github.com/h-enk/doks/commit/03637e547ef7afa1dcea853746634df3161656db))
+* update urls for deploy to github+ ([8c10161](https://github.com/h-enk/doks/commit/8c101613fa488518152675bb0916e74d444df1e2))
+
+
+### Documentation
+
+* update faq ([555fd17](https://github.com/h-enk/doks/commit/555fd17bb21d94764688f8f0c818d352183244b7))
+* update faq ([f751f3f](https://github.com/h-enk/doks/commit/f751f3ff02b736b36854e396b2536a9fef311c50))
+* update readme ([f32c60f](https://github.com/h-enk/doks/commit/f32c60f1ff6fe7f898efa7dc5ff97bd4b60148a6))
+* update requirement sections ([22a8bfb](https://github.com/h-enk/doks/commit/22a8bfbc87b20ae4d03b733b32f1e1f956e3671c))
+* update requirements sections ([3767e8b](https://github.com/h-enk/doks/commit/3767e8bfa0893d9bb827c35b5b2694c023e78ceb))
+* update requirements sections ([8e14777](https://github.com/h-enk/doks/commit/8e14777805500abbf7cbc840a4a19c7635ce5b96))
+* update requirements sections ([49f803e](https://github.com/h-enk/doks/commit/49f803e7e3d905d01ff00f5d02357defb885fe7e))
+* update requirements sections ([4791d5a](https://github.com/h-enk/doks/commit/4791d5a0ba464c57f74d3bd6736985830f0d9e71))
+* update requirements sections ([5321e8d](https://github.com/h-enk/doks/commit/5321e8d3c1094074c2503c3895579ebe32846176))
+* update requirements sections ([920776a](https://github.com/h-enk/doks/commit/920776a6d55167cd8ce40f2edfcc37f2841e3def))
+* update requirements sections ([3420ae9](https://github.com/h-enk/doks/commit/3420ae9c55dedd5424bf7f2f32a3cf1dacaf4e6f))
+* update showcase link ([3e00037](https://github.com/h-enk/doks/commit/3e00037d78b3e980bdbdf005a5c13d9a39d2fa3d))
+
+
+### Dependencies
+
+* bump autoprefixer, bootstrap, stylelint, and netlify-lambda to latest versions ([955cb46](https://github.com/h-enk/doks/commit/955cb46a5d4936ce355c28a4a2a8b5c025a8ca1c))
+* bump deps to latest ([05de29a](https://github.com/h-enk/doks/commit/05de29ace1e735840aea04f90924c2c833b00b86))
+* bump postcss-purgecss to 4.0.0 + eslint to 7.18.0 ([44e90f2](https://github.com/h-enk/doks/commit/44e90f2bc944693967c6e3864673d8f21ee07648))
+* bump versions to latest ([857906c](https://github.com/h-enk/doks/commit/857906c69b2d9779abd158dd88c1057f84c8eb6f))
+* bump versions to latest ([5e52acb](https://github.com/h-enk/doks/commit/5e52acbc35db30267867e1b0981c8f4299bdf51d))
+* bump versions to latest ([3087ae0](https://github.com/h-enk/doks/commit/3087ae0f521a780d38ccbd0afbb07e23fa9fad7d))
+
 ### [0.1.5](https://github.com/h-enk/doks/compare/v0.1.4...v0.1.5) (2021-01-12)
 
 
