@@ -5,7 +5,7 @@ on:
 jobs:
   deploy:
     environment:
-      name: Github Page
+      name: github-pages
       url: https://salimkayabasi.com/
     runs-on: ubuntu-latest
     steps:
