@@ -3,7 +3,10 @@ on:
   push:
 
 jobs:
-  check:
+  deploy:
+    environment:
+      name: Github Page
+      url: https://salimkayabasi.com/
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
