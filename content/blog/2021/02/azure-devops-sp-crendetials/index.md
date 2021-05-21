@@ -3,7 +3,7 @@ title: Reading service principal password from Azure DevOps
 lead: |
   Service principal is representation of your tenant or directory on Azure.
   On Azure Devops, service principal credentials can be accessed for deploying any components
-  It is possible to retrieve credentials from Azure Devops and use them on Github Actions.
+  It is possible to retrieve credentials from Azure Devops and use them on GitHub Actions.
 date: 2021-02-19T08:15:00.000Z
 ---
 # Security
@@ -64,11 +64,11 @@ console.log('tenantId');
 hexToUtf8('and tenantId here as well');
 ```
 
-# Using them on Github Actions
+# Using them on GitHub Actions
 
 ## Adding as Secret
 
-Let's create another secret for `Github Actions`. To do that, we need one more thing called `subscriptionId`.
+Let's create another secret for `GitHub Actions`. To do that, we need one more thing called `subscriptionId`.
 The `subscriptionId` can be found on Azure Portal or simple `powershell` or `bash` command like
 
 ```powershell
@@ -91,7 +91,7 @@ Add new `Secret` as JSON format on your project or organisation on GitHub.
 
 {{< figure src="./assets/github-secrets.png" >}}
 
-## Accessing from Github Actions
+## Accessing from GitHub Actions
 
 On your github actions workflow file, you can try to log in with using given credentials. Full example can be found on [GitHub repo](https://github.com/salimkayabasi/reading-service-principal-azure-devops/blob/main/.github/workflows/azure.yml#L7-L12) as well.
 
@@ -115,11 +115,11 @@ In order to prevent these kinds of issues, you can rotate credentials, but then 
 
 As I said, if any person who is granted to access your CI then s/he can do whatever they like.
 The purpose of this article, I just wanted to highlight that these ways of protections are useless and technically possible to read secrets.
-Same goes for `Github Actions` as well and there is no way to keep those secrets away from people who work for company.
+Same goes for `GitHub Actions` as well and there is no way to keep those secrets away from people who work for company.
 
-If you didn't like Azure DevOps and still want to use `Github Actions`, it is not that hard to migrate your CI to wherever you want.
+If you didn't like Azure DevOps and still want to use `GitHub Actions`, it is not that hard to migrate your CI to wherever you want.
 
-_*By the way, Github Actions and Azure DevOps are using same virtual machines under the hood._
+_*By the way, GitHub Actions and Azure DevOps are using same virtual machines under the hood._
 
 ##### Credits
 * [Pascal Naber](https://pascalnaber.wordpress.com/2020/01/04/backdoor-in-azure-devops-to-get-the-password-of-a-service-principal/)

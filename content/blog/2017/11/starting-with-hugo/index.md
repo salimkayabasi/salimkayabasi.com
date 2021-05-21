@@ -45,9 +45,9 @@ Congrats ㊗️
 
 {{< figure src="./images/hugo-new-page.png" caption="Successful" >}}
 
-### Deploying to Github Pages
+### Deploying to GitHub Pages
 
-As we know, Github Pages is a service which you can host your static files for free. I’ve created a new github [repository](https://github.com/salimkayabasi/blog-with-hugo) for hosting my new blog page.
+As we know, GitHub Pages is a service which you can host your static files for free. I’ve created a new github [repository](https://github.com/salimkayabasi/blog-with-hugo) for hosting my new blog page.
 
 Don’t forget to exclude `public` folder from your github repo or you can check my [configuration](https://github.com/salimkayabasi/blog-with-hugo/blob/master/.gitignore) for that.
 
@@ -79,7 +79,7 @@ script:
 ```
 Hugo is using `public` folder as output folder by default so it would be great to remove public folder if we have. On local development, we cloned into themes folder. It would be same for our travis configuration. Managing theme in separated github repository will help you to focus on your content. Hidden trick, use always same folder for your theme and no need to change your theme config on `config.toml` file
 
-Hugo generated our html files and we are ready to publish them on Github Pages.
+Hugo generated our html files and we are ready to publish them on GitHub Pages.
 
 ```yaml
 deploy:
@@ -98,9 +98,9 @@ Final version of Travis configuration is accessible [on github](https://github.c
 
 ### Last steps
 
-On Github, we need to enable github pages feature regarding to our configuration.
+On GitHub, we need to enable github pages feature regarding to our configuration.
 
-{{< figure src="./images/github-pages.png" caption="Github Configuration" >}}
+{{< figure src="./images/github-pages.png" caption="GitHub Configuration" >}}
 
 Don’t forget to pass your environment variables to Travis for successful build process.
 
