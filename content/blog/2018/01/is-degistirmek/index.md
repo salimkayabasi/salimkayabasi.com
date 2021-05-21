@@ -47,7 +47,7 @@ Bu hedeflerinizi koyma konusunda ya da koyduktan sonra uygulama konusunda motiva
 
 Ayrı bir konu da size verilen görevlerin ekipteki diğer arkadaşlarınıza göre daha düşük öncelikli olması ya da kendinizi göstermenize yardımcı olmaması da motivasyonunuzu düşüren bir sebep olabilir. Teknik olarak ekibin bir parçası olarak hissetmenizin önüne geçiyorsa, kariyer hedeflerinize giden yolda gecikmelere yol açacaktır.
 
-{{< figure src="./images/github.png" caption="Github üzerinden de kendinizi takip edebiliriniz" >}}
+{{< figure src="./images/github.png" caption="GitHub üzerinden de kendinizi takip edebiliriniz" >}}
 
 ### Maaş beklentileri ve piyasa dengesi
 
