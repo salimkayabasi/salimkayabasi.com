@@ -55,6 +55,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: salimkayabasi.com
-          commit_message: ${{ github.event.head_commit.message }}
+          full_commit_message: ${{ github.event.head_commit.message }}
           user_name: Salim KAYABASI
           user_email: salim.kayabasi@gmail.com
