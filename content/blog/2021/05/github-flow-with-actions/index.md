@@ -1,7 +1,8 @@
 ---
 title: Better GitHub flow with using GitHub Actions
 lead: |
-  GitHub flow is already lightweight and easy to understand but we can make it better with using GitHub Actions
+  GitHub flow is already lightweight and easy to understand but we can make it better with using GitHub Actions.
+  Let's have a look on how to deploy from a single branch to multiple environments in a secure way.
 date: 2021-05-21T11:24:20.000Z
 ---
 
@@ -22,7 +23,7 @@ Another one called production env for our users to access it.
 Some teams would prefer to have protected branches for each environments. It may help you to see what was deployed to which environment.
 As an idea, I don't prefer to use git as deployment tracking tool.
 
-GitHub is offering [Environment](https://docs.github.com/en/actions/reference/environments) out of the box and it can be integrated with GitHub Actions.
+GitHub is offering [Environment](https://docs.github.com/en/actions/reference/environments) out of the box and it can be integrated with [GitHub Actions](https://github.com/features/actions).
 It is possible to configure deployment steps to deploy spesific environment when conditions are met.
 
 {{< figure src="./assets/envs.png" caption="Multiple environments have been created">}}
