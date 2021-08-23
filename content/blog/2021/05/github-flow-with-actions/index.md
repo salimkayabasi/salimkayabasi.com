@@ -85,3 +85,5 @@ jobs:
 GitHub Flow is already simple and easy to understand but now it is powerful and secure also.
 It is nice to see what was deployed by who and when. We can defined protection rules and set secrets per environments.
 As an example, you can have a look on deployment of this blog page, by clicking [here](https://github.com/salimkayabasi/salimkayabasi.com/deployments).
+
+Update 23/08/21: I've created another repository to explain whole flow step by step and it can be found [here](https://github.com/salimkayabasi/example-github-flow-deployment).
